@@ -9,7 +9,7 @@
         filled
         bg-color="white"
         bottom-slots
-        placeholder="Add task"
+        placeholder="Adicionar tarefas"
         dense>
 
         <template v-slot:append>
@@ -70,7 +70,7 @@
      color="primary"
      />
      <div class="text-h5 text-primary text-center">
-       No tasks!
+       Sem Tarefas!
   </div>
   </div>
   </q-page>
@@ -107,7 +107,7 @@
       persistent:true
     }).onOk(() => {
     this.tasks.splice(index, 1)
-    this.$q.notify('Task deletado!')
+    this.$q.notify('Tarefa deletado!')
 
     })
    },
