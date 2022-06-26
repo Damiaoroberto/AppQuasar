@@ -1,7 +1,7 @@
 <template>
   <q-page class="-pa-lg">
     <h5 class="q-mt-none"></h5>
-    <P>Ainda em desenvolvimento...</p>
+    <P>Sendo desenvolvido</p>
 
   </q-page>
 </template>

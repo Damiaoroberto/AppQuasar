@@ -107,7 +107,7 @@
       persistent:true
     }).onOk(() => {
     this.tasks.splice(index, 1)
-    this.$q.notify('Tarefa deletado!')
+    this.$q.notify('Tarefa deletado com sucesso!')
 
     })
    },
